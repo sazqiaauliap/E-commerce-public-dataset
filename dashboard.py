@@ -19,7 +19,7 @@ with st.sidebar:
     # Menambahkan logo perusahaan
     st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
 
-st.title('Belajar Analisis Data')
+st.title('Qia Ecommerce Dashboard')
 tab1, tab2 = st.tabs(["Tab 1", "Tab 2"])
 
 with tab1:
