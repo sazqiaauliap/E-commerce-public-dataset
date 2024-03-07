@@ -1,7 +1,12 @@
 # <font color="#000080"> Qia E-commerce Dashboard ✨</font>
+# Setup environment
+
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
 
-<font size="3"> Untuk menggunakan streamlit, kita perlu menulis kode Python dalam berkas .py. Sebelumnya saya sudah membuat file dengan nama Dashboard.py</font>
+<font size="3"> Untuk menggunakan streamlit, kita perlu menulis kode Python dalam berkas .py. Sebelumnya saya sudah membuat file dengan nama dashboard.py</font>
 
 
 ```python
