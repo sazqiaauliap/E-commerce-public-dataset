@@ -5,8 +5,14 @@ conda create --name main-ds python=3.9
 conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
+# Intalasi dan Konfigurasi
 
-<font size="3"> Untuk menggunakan streamlit, kita perlu menulis kode Python dalam berkas .py. Sebelumnya saya sudah membuat file dengan nama dashboard.py</font>
+!pip install streamlit babel -q
+!wget -q -O - ipv4.icanhazip.com
+! streamlit run dashboard.py & npx localtunnel --port 8501
+
+
+<font size="3">Streamlit dapat digunakan dengan bahasa pemrograman Python. Jadi sebelumnya saya sudah membuat file bernama dashboard.py</font>
 
 
 ```python
