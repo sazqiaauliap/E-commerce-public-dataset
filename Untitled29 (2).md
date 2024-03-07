@@ -1,21 +1,25 @@
 # <font color="#000080"> Qia E-commerce Dashboard ✨</font>
 # Setup environment
-
-conda create --name main-ds python=3.9 
-
+```python
+conda create --name main-ds python=3.9
 conda activate main-ds
-
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
-
-
+```
 # Intalasi dan Konfigurasi
 
+```python
 !pip install streamlit babel -q
 !wget -q -O - ipv4.icanhazip.com
 ! streamlit run dashboard.py & npx localtunnel --port 8501
+```
+- `!pip install streamlit babel -q`: Ini adalah perintah untuk menginstal paket Streamlit dan Babel menggunakan pip. -q digunakan untuk mode "quiet", yang berarti output instalasi tidak akan ditampilkan ke layar.
+
+- `!wget -q -O - ipv4.icanhazip.com`: Perintah ini menggunakan wget untuk mengunduh data dari ipv4.icanhazip.com, yang kemungkinan besar adalah untuk mendapatkan alamat IP publik dari host Anda saat ini. Opsi -q digunakan untuk mode "quiet", yang berarti wget tidak akan menampilkan keluaran apa pun ke layar, dan -O - digunakan untuk menunjukkan bahwa output akan ditampilkan di stdout.
+
+- `!streamlit run dashboard.py & npx localtunnel --port 8501`: Ini adalah gabungan dari dua perintah. Yang pertama adalah streamlit run dashboard.py, yang menjalankan aplikasi Streamlit menggunakan file dashboard.py sebagai argumen. & digunakan untuk menjalankan perintah tersebut di latar belakang. Kemudian, perintah npx localtunnel --port 8501 digunakan untuk membuat terowongan lokal menggunakan port 8501, yang akan memungkinkan akses ke aplikasi Streamlit melalui internet menggunakan URL yang dibuat oleh localtunnel.
 
 
-<font size="3">Streamlit dapat digunakan dengan bahasa pemrograman Python. Jadi sebelumnya saya sudah membuat file bernama dashboard.py</font>
+<font size="3">Streamlit dapat digunakan dengan bahasa pemrograman Python. Jadi sebelumnya saya sudah membuat file bernama dashboard.py. berikut dibawah ini adalah code yang sudah saya buat</font>
 
 
 ```python
@@ -71,24 +75,7 @@ plt.gca().invert_yaxis()
 st.pyplot(plt)
 ```
 
-<font size="3">baik sekarang kita sudah mempunyai data Dashboard.py. seperti contoh diatas.</font>
-
-
-```python
-!pip install streamlit babel -q
-!wget -q -O - ipv4.icanhazip.com
-! streamlit run dashboard.py & npx localtunnel --port 8501
-```
-
-<font size="3">Code diatas digunakan untuk menjalankan dashboard kita dilokal host</font>
-
-- `!pip install streamlit babel -q`: Ini adalah perintah untuk menginstal paket Streamlit dan Babel menggunakan pip. -q digunakan untuk mode "quiet", yang berarti output instalasi tidak akan ditampilkan ke layar.
-
-- `!wget -q -O - ipv4.icanhazip.com`: Perintah ini menggunakan wget untuk mengunduh data dari ipv4.icanhazip.com, yang kemungkinan besar adalah untuk mendapatkan alamat IP publik dari host Anda saat ini. Opsi -q digunakan untuk mode "quiet", yang berarti wget tidak akan menampilkan keluaran apa pun ke layar, dan -O - digunakan untuk menunjukkan bahwa output akan ditampilkan di stdout.
-
-- `!streamlit run dashboard.py & npx localtunnel --port 8501`: Ini adalah gabungan dari dua perintah. Yang pertama adalah streamlit run dashboard.py, yang menjalankan aplikasi Streamlit menggunakan file dashboard.py sebagai argumen. & digunakan untuk menjalankan perintah tersebut di latar belakang. Kemudian, perintah npx localtunnel --port 8501 digunakan untuk membuat terowongan lokal menggunakan port 8501, yang akan memungkinkan akses ke aplikasi Streamlit melalui internet menggunakan URL yang dibuat oleh localtunnel.
-
-<font size="3">Setelah berhasil menginstall package tersebut, selanjutnya akan ada output berisi:</font>
+<font size="3">Setelah sudah menyelesaikan langkah diatas, selanjutnya akan muncul output yang berisi url untuk melihat streamlit yang sudah kita buat tadi</font>
 
 
 ```python
@@ -105,10 +92,7 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to Fals
 npx: installed 22 in 10.02s
 your url is: https://hungry-coats-post.loca.lt
 ```
-
-<font size="3">kali ini kita sudah mendapatkan url dari Dashboard yang telah kita buat tadi.</font>
-
-<font size="3">your url is: **https://tough-berries-rhyme.loca.lt**</font>
+<font size="3">ini adalah url yang kita dapatkan untuk melihat streamlit yang sudah kita buat: **https://tough-berries-rhyme.loca.lt**</font>
 
 ![Text Alternatif](https://s9.gifyu.com/images/SUSUs.png)
 
