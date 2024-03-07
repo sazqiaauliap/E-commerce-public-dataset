@@ -13,13 +13,13 @@ orders_customers_df = pd.DataFrame({
 })
 
 # Aplikasi Streamlit
-st.set_page_config(page_title="Qia Ecommerce Dashboard", page_icon=":chart_with_upwards_trend:")
+st.set_page_config(page_title="Qia E-commerce Dashboard✨", page_icon=":chart_with_upwards_trend:")
 
 with st.sidebar:
     # Menambahkan logo perusahaan
     st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
 
-st.title('Qia Ecommerce Dashboard')
+st.title('Qia Ecommerce Dashboard✨')
 tab1, tab2 = st.tabs(["Tab 1", "Tab 2"])
 
 with tab1:
