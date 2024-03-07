@@ -110,9 +110,9 @@ your url is: https://hungry-coats-post.loca.lt
 <font size="3">lalu klick **"Submit"** dan Dashboard yang kita buat akan terlihat</font>
 
 
-![Text Alternatif](https://s9.gifyu.com/images/SUSaK.png)
+![Text Alternatif](https://s9.gifyu.com/images/SUHIl.png)
 
-![Text Alternatif](https://s9.gifyu.com/images/SUSaI.png)
+![Text Alternatif](https://s9.gifyu.com/images/SUHIZ.png)
 
 <font size="3">Berikut merupakan tampilan dari <font size="4" color="#000080"><b>Qia E-commerce Dashboard ✨</b></font>
 </font>
